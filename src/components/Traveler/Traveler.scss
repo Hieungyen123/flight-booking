@@ -1,0 +1,111 @@
+.traverlers {
+    .sectionContainer {
+        text-align: center;
+
+
+        .traverlersContainer {
+            margin-top: 1rem;
+            gap: 1.5rem;
+
+
+            .singleTraverler {
+                position: relative;
+                height: 320px;
+                width: 85%;
+                max-width: 250px;
+                overflow: hidden;
+                border-radius: 10rem;
+                gap: 1rem;
+                margin: auto;
+
+                .destinationImg, .traverlerImg , .traverlerName {
+                    position: absolute;
+                }
+
+                .destinationImg {
+                    height: 100%;
+                    width: 100%;
+                    top: 0;
+                    left: 0;
+                    bottom: 0;
+                    right: 0;
+                    object-fit: cover;
+                }
+
+                .traverlerImg {
+                    height: 50px;
+                    width: 50px;
+                    object-fit: cover;
+                    border-radius: 50%;
+                    bottom: 30px;
+                    left: 40%;
+                    transform: translateX(-50%);
+                    border: 3px solid rgba(255,255,255,0.637);
+                    outline: none;
+                    transition: .4s ease-in-out;
+                    animation: animated 2.3s infinite;
+                }
+
+                @keyframes animated {
+                    0% {
+                        transform: translateY(0px);
+                    }
+                    50% {
+                        transform: translateY(8px);
+                    }
+                    100% {
+                        transform: translateY(0px);
+                    }
+                }
+
+                .traverlerName {
+                    bottom: -100%;
+                    width: 100%;
+                    height: max-content;
+                    background: white;
+                    padding: 1.5rem 1rem;
+                    transition: .4s ease-in-out;
+                    animation: animatedBorder 2.3s infinite;
+
+                    span {
+                        display: block;
+                        color: black;
+                        font-weight: 700;
+
+                    }
+                    p {
+                        color: hsl(225,50%,48%);
+                        font-style: italic;
+                        font-weight: 500;
+
+                    }
+                }
+
+                @keyframes animatedBorder {
+                    0% {
+                        border-radius: 0rem;
+                    }
+                    50% {
+                        border-radius: 2rem;
+                    }
+                    100% {
+                        border-radius: 0rem;
+                    }
+                }
+
+                &:hover {
+                    cursor: pointer;
+                    .traverlerName {
+                        bottom: 0;
+                        transition: 1s ease-in-out;
+                    }
+                    .traverlerImg {
+                        bottom: 110px;
+                        transition: 1s ease-in-out;
+                    }
+
+                }
+            }
+        }
+    }
+}

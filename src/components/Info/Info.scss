@@ -1,0 +1,51 @@
+.info {
+    background: hsl(180,17%,95%);
+    .infoContainer {
+        .titleDiv  {
+            text-align: center;
+            flex-direction: column;
+            gap: 1.5rem;
+            justify-content: space-between;
+        }
+        .cardsDiv {
+            gap: 1.5rem;
+            margin-top: 3rem;
+
+            .singleCard {
+                background: white;
+                padding: 3rem 2rem;
+                border-radius: 10rem;
+                gap: 1rem;
+                text-align: center;
+                margin: auto;
+                width: 90%;
+                max-width: 230px;
+                height: 320px;
+
+                .iconDiv {
+                    justify-content: center;
+                    margin: auto;
+                    width: max-content;
+                    height: 53px;
+                    padding: 1rem;
+                    border-radius: 2rem;
+                    background: hsl(225,50%,48%);
+                    
+                    .icon {
+                        color: white;
+                    }
+                }
+                .cardTittle {
+                    color: black;
+                    font-weight: 700;
+                }
+                .colorOne {
+                    background: hsl(15,74%,70%);
+                }
+                .colorTwo {
+                    background: rgb(186, 143, 105);
+                }
+            }
+        }
+    }
+}

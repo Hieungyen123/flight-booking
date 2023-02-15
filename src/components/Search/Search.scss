@@ -1,0 +1,84 @@
+.search {
+    
+    .sectionContainer {
+        width: 100%;
+        padding: 1.5rem;
+        border: 2px solid hsl(0,0%,96%);
+        border-radius: 16px;
+        row-gap: 2rem;
+        box-shadow: rgba(0,0,0,0.1) 2px 10px 15px -3px, rgba(0,0,0,0.5) 2px 4px 6px -2px;
+        .btns {
+            background: hsl(180,17%,95%);
+            padding: .5rem;
+            border-radius: 1rem;
+            flex-direction: column;
+            margin: auto;
+            width: 100%;
+
+            .singleBtn {
+                padding: .8rem 1.5rem;
+                width: 80%;
+                text-align: center;
+                border-radius: 3rem;
+                margin: 4px 0;
+
+                &:hover {
+                    background: hsl(225,50%,48%);
+                    color: white;
+                    cursor: pointer;
+                    font-weight: 500;
+                    transition: .4s ease;
+                }
+            }
+
+            .active {
+                background: hsl(225,50%,48%);
+                color: white;
+                cursor: pointer;
+            }
+        }
+
+        .searchInputs {
+            width: 100%;
+            justify-content: center;
+            flex-direction: column;
+            gap: 1.5rem;
+
+
+            .singleInput {
+                .iconDiv {
+                    padding: 16px 10px;
+                    border-radius: 2.5rem;
+                    background: hsl(180,17%,95%);
+                    margin-right: 1rem;
+
+                    .icon {
+                        opacity: 0.7;
+                    }
+                }
+
+                .texts {
+                    h4 {
+                        padding-top: 0;
+                        padding-bottom: .7rem;
+                        font-weight: 700;
+                    }
+                    input {
+                        width: 95%;
+                        border: none;
+                        outline: none;
+                        background: transparent;
+                        
+                        &::placeholder {
+                            font-size: 12px;
+                            opacity: .5;
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+}

@@ -1,0 +1,110 @@
+.navBar {
+    position: fixed;
+    flex-direction: column;
+    width: 100%;
+    z-index: 1000;
+
+    .navBarOne, .navBarTwo {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .navBarOne {
+        background-color: hsl(180,17%,95%) ;
+        .icon:hover {
+            color: hsl(225,50%,48%);
+        }
+        .atb {
+            gap: 1rem;
+            span {
+                cursor: pointer;
+                color: hsl(0,0%,12%);
+                &:hover {
+                    color:  hsl(225,50%,48%);
+                    transform: translateY(-2px);
+                }
+            }
+        }
+    }
+
+    .navBarTwo {
+        justify-content: space-between;
+        top: 3rem;
+        padding: 1.5rem 1rem;
+        position: fixed;
+        transition: .3s ease-in-out;
+
+        .logoDiv {
+            .Logo {
+                width: 30%;
+                -webkit-user-select: none;
+                user-select: none;
+            }
+        }
+
+
+
+        @media screen and (max-width:768px) {
+            .navBarMenu {
+                background-color: hsl(180,17%,95%);
+                position: absolute;
+                padding: 1.5rem;
+                border-radius: 10px;
+                top: 5rem;
+                right: -50%;
+                width: 80%;
+                transform: translateX(50%);
+                z-index: 2000;
+                box-shadow: rgba(0,0,0,0.1) 2px 10px 15px -3px, rgba(0,0,0,0.05) 2px 4px 6px -2px;
+                transition: .4s ease-in-out;
+                border: 3px solid hsl(0,0%,100%);
+
+
+                .menu {
+                    flex-direction: column;
+                    gap: 0.5rem;
+                    text-align: center;
+
+
+                    .listItem {
+                        padding: .5rem 0;
+                        cursor: pointer;
+                        color: black;
+
+                        &:hover {
+                            color: hsl(225,50%,48%);
+                            font-weight: 700;
+                        }
+                    }
+                } 
+                .btnOne {
+                    margin: auto;
+                    margin-top: 1rem;
+                }
+
+
+            }                
+            .btnTwo {
+                display: none;
+            }
+            .toggleIcon {
+                margin-top: 5px;
+                .icon {
+                    font-size: 30px;
+                    color: black;
+                }
+            }
+            .showNavBar {
+                right: 50%;
+                transition: .5s ease-in-out;
+            }
+        }
+    }
+    .navbar_with_bg {
+        background:  hsl(180,17%,95%);
+        padding: .2rem 1rem;
+        box-shadow: rgba(0,0,0,0.1) 0px 10px 15px -3px, rgba(0,0,0,0.5) 0px 4px 6px -2px;
+    }
+}

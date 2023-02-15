@@ -1,0 +1,74 @@
+.footer {
+    background: hsl(180,17%,95%);
+    .sectionContainer {
+        gap: 2.5rem;
+
+        .gridOne {
+            gap: 1rem;
+            justify-content: center;
+            margin: auto;
+            .logoDiv {
+                .logo {
+                    width: 30%;
+
+                }
+            }
+            .socialIcon {
+                margin-top: 1rem;
+                gap: 1rem;
+
+                .icon {
+                    height: 50px;
+                    width: 30px;
+                    font-size: 13px;
+                    border-radius: 10rem;
+                    border: 1px solid hsl(0,0%,83%);
+                    box-shadow: rgba(0,0,0,0.1) 0px 10px 15px -3px, rgba(0,0,0,0.5) 0px 4px 6px -2px;
+                    padding: .4rem;
+                    color: rgb(145,145,145);
+
+                    &:hover {
+                        background: hsl(225,50%,48%);
+                        transform: translateY(-7px);
+                        transition: .4s ease-in-out;
+                        border: 1px solid  hsl(225,50%,48%);
+                        color: white;
+                    }
+                }
+            }
+        }
+
+        .footerLinks {
+            display: grid;
+            .LinkTitle {
+                color: black;
+                font-weight: 600;
+                display: block;
+                padding-bottom: 1rem;
+
+            }
+
+            li a {
+                display: block;
+                color: rgb(145,145,145);
+                transition: .2s ease-in-out;
+                padding: .3rem 0;
+
+                &:hover {
+                    transform: translateX(7x);
+                    font-weight: 700;
+                }
+            }
+
+
+        }
+    }
+    .end {
+        justify-content: center;
+        margin-top: 1.5rem;
+        padding: 1rem;
+        gap: 1rem;
+        border-top: 1px solid rgb(145,145,145);
+        text-align: center;
+    }
+}
