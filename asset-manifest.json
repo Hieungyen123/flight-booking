@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "./static/css/main.069d58b0.css",
+    "main.js": "./static/js/main.608575b0.js",
+    "static/js/787.2589662e.chunk.js": "./static/js/787.2589662e.chunk.js",
+    "static/media/Landscape.mp4": "./static/media/Landscape.5e45e4f2028f8e8acf8a.mp4",
+    "static/media/person4.jpg": "./static/media/person4.ba840327fee4f2c32c66.jpg",
+    "static/media/dubai.jpg": "./static/media/dubai.90873af91540d0792bcf.jpg",
+    "static/media/person2.jpg": "./static/media/person2.33d0df283fd51df454a8.jpg",
+    "static/media/person3.jpg": "./static/media/person3.77f242bd0da2c7dda540.jpg",
+    "static/media/person1.jpg": "./static/media/person1.9d4f4a955fda1eb131f1.jpg",
+    "static/media/newyork.jpg": "./static/media/newyork.b2cf880839c053b1ad12.jpg",
+    "static/media/pilot5.jpg": "./static/media/pilot5.651987b0995efe329622.jpg",
+    "static/media/paris.jpg": "./static/media/paris.894c95582cc2c44f53f7.jpg",
+    "static/media/london.jpg": "./static/media/london.dfc628f01088bd8b0dc6.jpg",
+    "static/media/window.jpg": "./static/media/window.1a46901bf767363bcf7a.jpg",
+    "static/media/window3.jpg": "./static/media/window3.5ac577ffef18c64d146e.jpg",
+    "static/media/window2.jpg": "./static/media/window2.a1067d19176b999233a9.jpg",
+    "static/media/pilot4.jpg": "./static/media/pilot4.9e6aa0df0bafb36528ab.jpg",
+    "static/media/logo.png": "./static/media/logo.dba469ff96b7df679523.png",
+    "static/media/plane3.png": "./static/media/plane3.a1301ef3c5c6b064ba4b.png",
+    "index.html": "./index.html",
+    "main.069d58b0.css.map": "./static/css/main.069d58b0.css.map",
+    "main.608575b0.js.map": "./static/js/main.608575b0.js.map",
+    "787.2589662e.chunk.js.map": "./static/js/787.2589662e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.069d58b0.css",
+    "static/js/main.608575b0.js"
+  ]
+}
